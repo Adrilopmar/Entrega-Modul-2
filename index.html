@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <title>Document</title>
+    <!-- google fonts : lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&   display=swap" rel="stylesheet"/>
+    <!-- font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- funcio veure mes/menys -->
+    <script>
+      function veuremes(id){
+        if(id=="mes"){
+          document.getElementById("desplegar").style.display="block";
+          document.getElementById("mes").style.display="none";
+          // Document.getElementById("imghistoria").style.alignSelf="center";
+        }
+        else{
+          document.getElementById("desplegar").style.display="none";
+          document.getElementById("mes").style.display="inline";
+          // Document.getElementById("imghistoria").style.alignSelf="flex-start";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="images/logo-boutique.png" alt="logo"
+      /></a>
+      <nav class="main-menu">
+        <ul>
+          <div class="menu-nav">
+            <a href="#productes-naturals"><li>Productes naturals</li></a>
+            <a href="#Botiga"><li>Botiga</li></a>
+            <a href="#quisom"><li>Qui sóm?</li></a>
+            <a href="#fires-mercats"><li>Fires i mercats</li></a>
+            <a href="#contacte"><li>Contacta</li></a>
+          </div>
+          <div class="carrocompra">
+            <a href="#" class="linkcarro"><i class="fas fa-shopping-cart carro"></i></a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <div class="banner">
+        <div class="main-image"></div>
+      </div>
+      <section class="oferta">
+        <div class="contenidor-oferta">
+          <h2 class="title">Bellesa i benestar a un click!</h2>
+          <div class="ofertes">
+          <div class="article1">
+            <img class="article-1" src="images/100artesa.png" alt="article-1">
+            <h3>Productes 100% artesans</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> harum nihil nisi odio excepturi pariatur.quae qui expedita eligendi ipsa amet omnissapiente
+              magni!</p>
+            </div>
+            <div class="article1div"><a href="#" class="boto btn">Saber més</a></div>
+          <div class="article2">
+            <img class="article-2" src="images/tractamentsnaturals.png" alt="article-2">
+            <h3>Tractaments naturals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Exercitationem harum nihil nisi odio excepturi pariatur.</p>
+          </div>
+          <div class="article1div"><a href="#" class="boto btn">Saber més</a></div>
+          <div class="article3">
+            <img class="article-3" src="images/rapidsegur.png" alt="article-3">
+            <h3>Enviaments en 24-48h</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> harum nihil nisi odio excepturi pariatur.</p>
+          </div>
+          <div class="article1div"><a href="#" class="boto btn">Saber més</a></div>
+        </div>
+        </div>
+      </section>
+      <section class="cosmetica">
+        <a href="#" id="productes-naturals"></a>
+        <div class="contenidor-cosmetica">
+          <h2 class="title"> Els nostres productes naturals</h2>
+          <div class="cosmetica-natural">
+            <h2 class="titol-cosmetica">Cosmètica natural</h2>
+            <p class="paragraf-dreta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique quis minus qui laudantium atque, tempora reprehenderit excepturi dicta sunt.</p></div>
+        </div>
+        <div class="separacio"></div>
+        <div class="contenidor-coixins">
+          <div class="coixins-terapeutics">
+            <h2 class="titol-coixins">Coixins terapèutics</h2>
+            <p class="paragraf-esquerra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique quis minus qui laudantium atque, tempora reprehenderit excepturi dicta sunt.</p></div>
+        </div><div class="separacio2"></div>
+        <div class="contenidor-sabons">
+          <div class="sabons-artesans">
+            <h2 class="titol-cosmetica">Sabons artesans</h2>
+            <p class="paragraf-dreta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique quis minus qui laudantium atque, tempora reprehenderit excepturi dicta sunt.</p></div>
+        </div>
+        <!-- <div class="separacio"></div> -->
+      </section>
+      <section class="tenda-principal">
+        <a href="#" id="Botiga"></a>
+        <h2 class="title">Productes destacats</h2>
+        <div class="aparador">
+          <div class="productesdestacats">
+            <div class="producte1">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-1"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium? </p>
+            </div>
+            <div class="producte2">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-2"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium?</p>
+            </div>
+            <div class="producte3">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-3"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium?  </p>
+            </div>
+            <div class="producte4">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-4"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium? </p>
+            </div>
+            <div class="producte5">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-5"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium? </p>
+            </div>
+            <div class="producte6">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-6"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium?</p>
+            </div>
+            <div class="producte7">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-7"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium? </p>
+            </div>
+            <div class="producte8">
+              <a href="#"><img src="images/handmade.jpg" alt="producte-8"></a>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, accusantium? </p>
+            </div> 
+          </div>
+          <div class="botobotiga"><a href="#Botiga" class="anar-botiga boto">Veure la botiga</a></div>
+        </div>
+      </section>
+      <section class="about-us"><a name="about" id="quisom"></a>
+        <h2 class="title">About us</h2>
+          <div id="imghistoria" class="lanostrahistoria">
+           <div class="img-about"><img
+            class="img-aboutt"
+            src="images/recetas-jabones.jpg"
+            alt="sobre nosaltres"/>
+          </div>
+          <div class="descripcio-about"><h2 class="titolhistoria">La nostra història</h2>
+             <div class="resumhist">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non natus perspiciatis sapiente magni! Ducimus praesentium, deleniti qui expedita eligendi ipsa amet omnis. sapiente magni!Ducimus praesentium, deleniti excepturi minus voluptatem officia quasi voluptate architecto quae qui expedita eligendi ipsa amet omnissapiente magni! <br/>Ducimus
+              praesentium, deleniti excepturi minus voluptatem officia quasi voluptate architecto quae qui expedita eligendi ipsa amet omnissapiente magni! <a id="mes" href="#about" onclick="veuremes('mes');"> <i>...[Llegir més]</i></a>
+              </p> 
+              <p id="desplegar">Ducimus praesentium, deleniti excepturi minus voluptatem officia quasi voluptate architecto quaequi expedita eligendi ipsa amet omnissapiente magni! <br/>
+               Ducimus praesentium, deleniti excepturi minus voluptatem officia quasi voluptate architecto quae qui expedita eligendi ipsaamet omnissapiente magni! sapiente magni! Ducimus praesentium,deleniti excepturi minus voluptatem officia quasi voluptate architecto quae qui expedita eligendi ipsa amet omnissapiente
+              magni!<a id="menys" href="#about" onclick="veuremes('menys');"> <i>...[Llegir menys]</i></a></p>
+             </div>
+            </div>
+          </div>
+        <h3 class="titolcertificats">Som artesans certificats</h3>
+        <div class="certificats">
+          <img
+            class="ass-saboners"
+            src="images/GREMI-DE-SABONERRS.png"
+            alt="logo-associació"/>
+          <img
+            class="artesania"
+            src="images/artesania-catalunya.jpg"
+            alt="artesania de catalunya"/>
+          <img
+            class="carnet"
+            src="images/carnet-artesa.png"
+            alt="carnet artesania"/>
+        </div>
+      </section>
+      <section clas="fires-i-mercats">
+        <a href="#" id="fires-mercats"></a>
+        <h2 class="title">Fires i mercats</h2>
+        <div class="gridfires">
+          <div class="cap">Fira</div>
+          <div class="cap">Lloc</div>
+          <div class="cap">Localització</div>
+          <div class="fira">Fira del gall</div>
+          <div class="fira">Vilafranca del penedés</div>
+          <div class="fira mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.4125144614834!2d1.696498038324004!3d41.34212446142798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4798adfdbf557%3A0x136fbb2ddafe4438!2s08720%20Villafranca%20del%20Panad%C3%A9s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1611563716085!5m2!1ses!2ses" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+          <div class="fira">Fira medieval de palau</div>
+          <div class="fira">Palau-Solità i Plegamans</div>
+          <div class="fira"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0710101357454!2d2.183495827891764!3d41.58220500975026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c07ef55f61ed%3A0xc58db8637134e6ae!2sCastell%20de%20Plegamans!5e0!3m2!1ses!2ses!4v1611564331156!5m2!1ses!2ses" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+          <div class="fira">Fira d'artesania</div>
+          <div class="fira">Olesa de Montserrat</div>
+          <div class="fira"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d592.5160459113639!2d1.893793031559718!3d41.54556812029231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a48b0ad42cc8a5%3A0x43ba76816358e3df!2sOlesa%20de%20Montserrat%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1611564408465!5m2!1ses!2ses" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+      </div>
+      </section>
+    </article>
+    <footer>
+      <div class="footer">
+        <div class="empresa">
+          <img src="images/logo-boutique.png" alt="logo">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum excepturi nisi officia eius totam dolores?</p>
+        </div>
+        <div class="contact">
+          <h3>CONTACTE</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> boutiquejosep@gmail.com</li>
+            <li><i class="fas fa-phone"></i> 697.xxx.xxx</li>
+            <li><i class="fas fa-map-marker-alt"></i> c/arquitecte torres clavé 69</li>
+          </ul>
+        </div>
+        <div class="informacio">
+        <h3>INFO</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit dolore fugit doloremque cupiditate numquam.</p>
+      </div>
+      <div class="xarxes">
+        <h3>SEGUEIX-NOS!</h3>
+        <ul>
+          <a class="tw" href="#"><li><i class="fab fa-twitter tw"></i></li></a>
+          <a href="#"><li class="fab fa-facebook-square fb"></li></a>
+          <a href="#"><li class="fab fa-instagram ig"></li></a>
+          <a href="#"><li class="fab fa-pinterest-p pin"></li></a>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="copy">
+      <p>Copyright <i class="far fa-copyright"></i> 2021 tots els drets reservats </p>
+    </div>
+    </footer>
+  </body>
+</html>
