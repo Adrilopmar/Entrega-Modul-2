@@ -11,6 +11,7 @@ body {
   background: rgb(171,81,227, .5);
   text-decoration: none;
   border-radius: 10px;
+  color: #000;
 }
 /*--------------hovers boto------------*/
 .boto:hover{
@@ -126,7 +127,7 @@ nav li {
   padding: 10px;
   margin: 0px auto;
   text-align: center;
-}
+  }
 /* -------------------- cosmetica natural -------------*/
 
 .cosmetica-natural{
